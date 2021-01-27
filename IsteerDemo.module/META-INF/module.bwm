@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_aNB9kD6XEeuQLbNECVt0kg" targetNamespace="http://tns.tibco.com/bw/composite/IsteerDemo.module" name="IsteerDemo.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_aw2cUD6XEeuQLbNECVt0kg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axD3sD6XEeuQLbNECVt0kg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axMakD6XEeuQLbNECVt0kg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axRTED6XEeuQLbNECVt0kg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axXZsD6XEeuQLbNECVt0kg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axbrID6XEeuQLbNECVt0kg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axf8kD6XEeuQLbNECVt0kg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axf8kT6XEeuQLbNECVt0kg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_axptkD6XEeuQLbNECVt0kg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_zBRd0D6YEeuQLbNECVt0kg" name="SampleData" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_agTe4D6XEeuQLbNECVt0kg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_agTe4T6XEeuQLbNECVt0kg" processName="isteerdemo.module.Process"/>
+  </sca:component>
+</sca:composite>
